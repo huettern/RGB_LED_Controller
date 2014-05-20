@@ -1,0 +1,602 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\schwab_n\AppData\Local\Temp\s520.obj
+end_init CODE 0 38 38 1 2
+reset_vec CODE 0 0 0 1 2
+config CONFIG 0 8007 8007 2 2
+$dist/default/production\V1.0.production.obj
+cinit CODE 0 39 39 1B 2
+intentry CODE 0 4 4 34 2
+text6 CODE 0 3B0 3B0 1F 2
+text4 CODE 0 3CF 3CF 1E 2
+text3 CODE 0 416 416 A 2
+text2 CODE 0 301 301 86 2
+text1 CODE 0 387 387 29 2
+maintext CODE 0 3ED 3ED 1C 2
+cstackBANK0 BANK0 1 40 40 10 1
+cstackCOMMON COMMON 1 70 70 9 1
+inittext CODE 0 426 426 6 2
+clrtext CODE 0 420 420 6 2
+bssBANK1 BANK1 1 A0 A0 18 1
+dataBANK0 BANK0 1 50 50 D 1
+bssBANK0 BANK0 1 20 20 20 1
+bssCOMMON COMMON 1 79 79 3 1
+stringtext STRCODE 0 100 100 201 2
+idataBANK0 CODE 0 409 409 D 2
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+BANK0 0005D-0006F 1
+BANK1 000B8-000BF 1
+BIGRAM 02000-0206F 1
+CODE 00001-00003 2
+CODE 00054-000FF 2
+CODE 0042C-007FF 2
+COMMON 0007C-0007D 1
+CONST 00001-00003 2
+CONST 00054-000FF 2
+CONST 0042C-007FF 2
+EEDATA 0F000-0F0FF 2
+ENTRY 00001-00003 2
+ENTRY 00054-000FF 2
+ENTRY 0042C-007FF 2
+IDLOC 08000-08003 2
+RAM 0005D-0006F 1
+RAM 000B8-000BF 1
+SFR0 00000-0001F 1
+SFR1 00080-0009F 1
+SFR10 00500-0056F 1
+SFR11 00580-005EF 1
+SFR12 00600-0066F 1
+SFR13 00680-006EF 1
+SFR14 00700-0076F 1
+SFR15 00780-007EF 1
+SFR16 00800-0086F 1
+SFR17 00880-008EF 1
+SFR18 00900-0096F 1
+SFR19 00980-009EF 1
+SFR2 00100-0016F 1
+SFR20 00A00-00A6F 1
+SFR21 00A80-00AEF 1
+SFR22 00B00-00B6F 1
+SFR23 00B80-00BEF 1
+SFR24 00C00-00C6F 1
+SFR25 00C80-00CEF 1
+SFR26 00D00-00D6F 1
+SFR27 00D80-00DEF 1
+SFR28 00E00-00E6F 1
+SFR29 00E80-00EEF 1
+SFR3 00180-001EF 1
+SFR30 00F00-00F6F 1
+SFR31 00F80-00FEF 1
+SFR4 00200-0026F 1
+SFR5 00280-002EF 1
+SFR6 00300-0036F 1
+SFR7 00380-003EF 1
+SFR8 00400-0046F 1
+SFR9 00480-004EF 1
+STACK 0203D-0204F 1
+STRCODE 00001-00003 2
+STRCODE 00054-000FF 2
+STRCODE 0042C-007FF 2
+STRING 00001-00003 2
+STRING 00054-000FF 2
+STRING 0042C-007FF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <file name>:<line number> <address> <psect name> <class name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\V1.0.production.obj
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\uart.c":39 4 intentry CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\uart.c":40 8 intentry CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\uart.c":41 A intentry CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\uart.c":42 B intentry CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\uart.c":43 10 intentry CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\uart.c":44 15 intentry CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\uart.c":45 16 intentry CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\uart.c":46 17 intentry CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\uart.c":47 18 intentry CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\uart.c":48 1C intentry CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\uart.c":49 25 intentry CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\uart.c":51 2E intentry CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\uart.c":52 32 intentry CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\uart.c":55 34 intentry CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1692 39 cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1695 39 cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1766 39 cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1767 3A cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1768 3B cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1772 3C cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1773 3D cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1774 3E cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1775 3F cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1776 40 cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1777 41 cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1781 42 cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1782 43 cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1783 44 cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1784 45 cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1785 46 cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1786 47 cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1801 48 cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1802 49 cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1803 4A cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1804 4B cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1805 4C cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1806 4D cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1807 4E cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1808 4F cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1809 50 cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1810 51 cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1816 52 cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1817 52 cinit CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1818 53 cinit CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":73 301 text2 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":77 301 text2 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":79 30A text2 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":81 311 text2 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":83 319 text2 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":84 320 text2 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":86 322 text2 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":87 329 text2 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":89 32B text2 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":90 332 text2 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":93 334 text2 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":94 345 text2 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":95 357 text2 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":96 369 text2 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":99 36C text2 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":101 373 text2 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":102 37A text2 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":99 381 text2 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":59 387 text1 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":61 387 text1 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":104 387 text2 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":62 38C text1 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":64 38D text1 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":63 3A9 text1 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":66 3AE text1 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lbmod.c":4 3B0 text6 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":68 3B0 text1 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lbmod.c":9 3B1 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lbmod.c":10 3B5 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lbmod.c":12 3B6 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lbmod.c":13 3C1 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lbmod.c":14 3C3 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lbmod.c":15 3C7 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lbmod.c":16 3C9 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lbmod.c":17 3CD text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lbmod.c":18 3CF text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\wmul.c":4 3CF text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\wmul.c":20 3CF text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\wmul.c":22 3D2 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\wmul.c":23 3D4 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\wmul.c":24 3D8 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\wmul.c":25 3DD text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\wmul.c":26 3E2 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\wmul.c":30 3E6 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\wmul.c":31 3ED text4 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\main.c":36 3ED maintext CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\main.c":37 3ED maintext CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\main.c":38 3F0 maintext CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\main.c":40 3F3 maintext CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\main.c":41 3F5 maintext CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\main.c":42 3F8 maintext CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\main.c":43 3FA maintext CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\main.c":44 3FF maintext CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\main.c":45 401 maintext CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\main.c":46 406 maintext CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\main.c":47 408 maintext CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\main.c":48 409 maintext CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":53 416 text3 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":54 418 text3 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":55 41B text3 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":56 41E text3 CODE
+"C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c":57 41F text3 CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1755 420 clrtext CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1756 420 clrtext CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1757 421 clrtext CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1758 421 clrtext CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1759 422 clrtext CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1760 423 clrtext CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1761 424 clrtext CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1762 425 clrtext CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1790 426 inittext CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1791 426 inittext CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1792 427 inittext CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1793 427 inittext CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1794 428 inittext CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1795 429 inittext CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1796 42A inittext CODE
+"C:\Users\schwab_n\AppData\Local\Temp\s520.":1797 42B inittext CODE
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+__CFG_PLLEN$ON 0 0 ABS 0 - dist/default/production\V1.0.production.obj
+__CFG_WRT$OFF 0 0 ABS 0 - dist/default/production\V1.0.production.obj
+__S0 8009 0 ABS 0 - -
+__S1 B8 0 ABS 0 - -
+__S2 0 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+__Hintentry 70 0 CODE 0 intentry -
+__Lintentry 8 0 CODE 0 intentry -
+__pintentry 8 0 CODE 0 intentry dist/default/production\V1.0.production.obj
+_PIE1 91 0 ABS 0 - dist/default/production\V1.0.production.obj
+_RCIF 8D 0 ABS 0 - dist/default/production\V1.0.production.obj
+_CREN CEC 0 ABS 0 - dist/default/production\V1.0.production.obj
+_PLLR 4D6 0 ABS 0 - dist/default/production\V1.0.production.obj
+_vBCb 5A 0 BANK0 1 dataBANK0 dist/default/production\V1.0.production.obj
+_vBCg 5B 0 BANK0 1 dataBANK0 dist/default/production\V1.0.production.obj
+_vBCr 5C 0 BANK0 1 dataBANK0 dist/default/production\V1.0.production.obj
+_main 7DA 0 CODE 0 maintext dist/default/production\V1.0.production.obj
+___sp 0 0 STACK 2 stack C:\Users\schwab_n\AppData\Local\Temp\s520.obj
+btemp 7E 0 ABS 0 - dist/default/production\V1.0.production.obj
+ltemp 7E 0 ABS 0 - dist/default/production\V1.0.production.obj
+ttemp 7E 0 ABS 0 - dist/default/production\V1.0.production.obj
+wtemp 7E 0 ABS 0 - dist/default/production\V1.0.production.obj
+start 70 0 CODE 0 init C:\Users\schwab_n\AppData\Local\Temp\s520.obj
+_vNewData 7B 0 COMMON 1 bssCOMMON dist/default/production\V1.0.production.obj
+__end_of_fSPIWrite 840 0 CODE 0 text3 dist/default/production\V1.0.production.obj
+_RCREG 199 0 ABS 0 - dist/default/production\V1.0.production.obj
+_RCSTA 19D 0 ABS 0 - dist/default/production\V1.0.production.obj
+reset_vec 0 0 CODE 0 reset_vec C:\Users\schwab_n\AppData\Local\Temp\s520.obj
+_TXSTA 19E 0 ABS 0 - dist/default/production\V1.0.production.obj
+ltemp0 7E 0 ABS 0 - dist/default/production\V1.0.production.obj
+ttemp0 7E 0 ABS 0 - dist/default/production\V1.0.production.obj
+wtemp0 7E 0 ABS 0 - dist/default/production\V1.0.production.obj
+ltemp1 82 0 ABS 0 - dist/default/production\V1.0.production.obj
+ttemp1 81 0 ABS 0 - dist/default/production\V1.0.production.obj
+wtemp1 80 0 ABS 0 - dist/default/production\V1.0.production.obj
+ltemp2 86 0 ABS 0 - dist/default/production\V1.0.production.obj
+ttemp2 84 0 ABS 0 - dist/default/production\V1.0.production.obj
+wtemp2 82 0 ABS 0 - dist/default/production\V1.0.production.obj
+ltemp3 80 0 ABS 0 - dist/default/production\V1.0.production.obj
+ttemp3 87 0 ABS 0 - dist/default/production\V1.0.production.obj
+wtemp3 84 0 ABS 0 - dist/default/production\V1.0.production.obj
+ttemp4 7F 0 ABS 0 - dist/default/production\V1.0.production.obj
+wtemp4 86 0 ABS 0 - dist/default/production\V1.0.production.obj
+wtemp5 88 0 ABS 0 - dist/default/production\V1.0.production.obj
+wtemp6 7F 0 ABS 0 - dist/default/production\V1.0.production.obj
+__Hconfig 10012 0 CONFIG 0 config -
+__Lconfig 1000E 0 CONFIG 0 config -
+__end_of__stringtab 202 0 STRCODE 0 stringtext dist/default/production\V1.0.production.obj
+__Hbigram 0 0 ABS 0 bigram -
+__Lbigram 0 0 ABS 0 bigram -
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+__CFG_STVREN$ON 0 0 ABS 0 - dist/default/production\V1.0.production.obj
+__Hfunctab 0 0 CODE 0 functab -
+__Lfunctab 0 0 CODE 0 functab -
+__Hcommon 0 0 ABS 0 common -
+__Lcommon 0 0 ABS 0 common -
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+___int_sp 0 0 STACK 2 stack C:\Users\schwab_n\AppData\Local\Temp\s520.obj
+_SSP1IF 8B 0 ABS 0 - dist/default/production\V1.0.production.obj
+__CFG_CLKOUTEN$OFF 0 0 ABS 0 - dist/default/production\V1.0.production.obj
+_SPBRGH 19C 0 ABS 0 - dist/default/production\V1.0.production.obj
+_HFIOFL 4D3 0 ABS 0 - dist/default/production\V1.0.production.obj
+_SPBRGL 19B 0 ABS 0 - dist/default/production\V1.0.production.obj
+_OSCCON 99 0 ABS 0 - dist/default/production\V1.0.production.obj
+__Habs1 0 0 ABS 0 abs1 -
+__Labs1 0 0 ABS 0 abs1 -
+_INTCON B 0 ABS 0 - dist/default/production\V1.0.production.obj
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Hsfr4 0 0 ABS 0 sfr4 -
+__Lsfr4 0 0 ABS 0 sfr4 -
+__Hsfr5 0 0 ABS 0 sfr5 -
+__Lsfr5 0 0 ABS 0 sfr5 -
+__Hsfr6 0 0 ABS 0 sfr6 -
+__Lsfr6 0 0 ABS 0 sfr6 -
+__Hsfr7 0 0 ABS 0 sfr7 -
+__Lsfr7 0 0 ABS 0 sfr7 -
+__Hsfr8 0 0 ABS 0 sfr8 -
+__Lsfr8 0 0 ABS 0 sfr8 -
+__Hsfr9 0 0 ABS 0 sfr9 -
+__Lsfr9 0 0 ABS 0 sfr9 -
+_fSPIWrite 82C 0 CODE 0 text3 dist/default/production\V1.0.production.obj
+_SPITxBuffer 20 0 BANK0 1 bssBANK0 dist/default/production\V1.0.production.obj
+_FadeValue 202 0 STRCODE 0 stringtext dist/default/production\V1.0.production.obj
+_fInterruptRoutine 8 0 CODE 0 intentry dist/default/production\V1.0.production.obj
+_vErrorFlags 7A 0 COMMON 1 bssCOMMON dist/default/production\V1.0.production.obj
+__Hcode 0 0 ABS 0 code -
+__Lcode 0 0 ABS 0 code -
+__size_of___lbmod 0 0 ABS 0 - dist/default/production\V1.0.production.obj
+_fTLCwrite 602 0 CODE 0 text2 dist/default/production\V1.0.production.obj
+stackhi 204F 0 ABS 0 - C:\Users\schwab_n\AppData\Local\Temp\s520.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__pcstackBANK0 40 0 BANK0 1 cstackBANK0 dist/default/production\V1.0.production.obj
+stacklo 203D 0 ABS 0 - C:\Users\schwab_n\AppData\Local\Temp\s520.obj
+__Hinit 70 0 CODE 0 init -
+__Linit 70 0 CODE 0 init -
+___wmul 79E 0 CODE 0 text4 dist/default/production\V1.0.production.obj
+__end_of_main 812 0 CODE 0 maintext dist/default/production\V1.0.production.obj
+__Htext 0 0 ABS 0 text -
+__Ltext 0 0 ABS 0 text -
+___wmul@multiplier 40 0 BANK0 1 cstackBANK0 dist/default/production\V1.0.production.obj
+__HdataBANK0 0 0 ABS 0 dataBANK0 -
+__LdataBANK0 0 0 ABS 0 dataBANK0 -
+__pdataBANK0 50 0 BANK0 1 dataBANK0 dist/default/production\V1.0.production.obj
+end_of_initialization A4 0 CODE 0 cinit dist/default/production\V1.0.production.obj
+_channel_color A0 0 BANK1 1 bssBANK1 dist/default/production\V1.0.production.obj
+___wmul@multiplicand 42 0 BANK0 1 cstackBANK0 dist/default/production\V1.0.production.obj
+__Hsfr10 0 0 ABS 0 sfr10 -
+__Lsfr10 0 0 ABS 0 sfr10 -
+__Hsfr20 0 0 ABS 0 sfr20 -
+__Lsfr20 0 0 ABS 0 sfr20 -
+__Hsfr30 0 0 ABS 0 sfr30 -
+__Hsfr11 0 0 ABS 0 sfr11 -
+__Lsfr30 0 0 ABS 0 sfr30 -
+__Lsfr11 0 0 ABS 0 sfr11 -
+__Hsfr21 0 0 ABS 0 sfr21 -
+__Lsfr21 0 0 ABS 0 sfr21 -
+__stringtab 200 0 STRCODE 0 stringtext dist/default/production\V1.0.production.obj
+__Hsfr31 0 0 ABS 0 sfr31 -
+__Hsfr12 0 0 ABS 0 sfr12 -
+__Lsfr31 0 0 ABS 0 sfr31 -
+__Lsfr12 0 0 ABS 0 sfr12 -
+__Hsfr22 0 0 ABS 0 sfr22 -
+__Lsfr22 0 0 ABS 0 sfr22 -
+__Hsfr13 0 0 ABS 0 sfr13 -
+__Lsfr13 0 0 ABS 0 sfr13 -
+__Hsfr23 0 0 ABS 0 sfr23 -
+__Lsfr23 0 0 ABS 0 sfr23 -
+__Hsfr14 0 0 ABS 0 sfr14 -
+__Lsfr14 0 0 ABS 0 sfr14 -
+__Hsfr24 0 0 ABS 0 sfr24 -
+__Lsfr24 0 0 ABS 0 sfr24 -
+__Hsfr15 0 0 ABS 0 sfr15 -
+__Lsfr15 0 0 ABS 0 sfr15 -
+__Hsfr25 0 0 ABS 0 sfr25 -
+__Lsfr25 0 0 ABS 0 sfr25 -
+__Hsfr16 0 0 ABS 0 sfr16 -
+__Lsfr16 0 0 ABS 0 sfr16 -
+__Hsfr26 0 0 ABS 0 sfr26 -
+__Lsfr26 0 0 ABS 0 sfr26 -
+__end_of_FadeValue 602 0 STRCODE 0 stringtext dist/default/production\V1.0.production.obj
+__Hsfr17 0 0 ABS 0 sfr17 -
+__Lsfr17 0 0 ABS 0 sfr17 -
+__Hsfr27 0 0 ABS 0 sfr27 -
+__Lsfr27 0 0 ABS 0 sfr27 -
+__Hsfr18 0 0 ABS 0 sfr18 -
+__Lsfr18 0 0 ABS 0 sfr18 -
+__Hsfr28 0 0 ABS 0 sfr28 -
+__Lsfr28 0 0 ABS 0 sfr28 -
+__Hsfr19 0 0 ABS 0 sfr19 -
+__Lsfr19 0 0 ABS 0 sfr19 -
+__Hsfr29 0 0 ABS 0 sfr29 -
+__Lsfr29 0 0 ABS 0 sfr29 -
+__Hstrings 0 0 ABS 0 strings -
+__Lstrings 0 0 ABS 0 strings -
+__size_of_fTLCwrite 0 0 ABS 0 - dist/default/production\V1.0.production.obj
+_SSP1BUF 211 0 ABS 0 - dist/default/production\V1.0.production.obj
+__Hbank0 0 0 ABS 0 bank0 -
+__Lbank0 0 0 ABS 0 bank0 -
+_BAUDCON 19F 0 ABS 0 - dist/default/production\V1.0.production.obj
+__Hbank1 0 0 ABS 0 bank1 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 BANK2 1 bank2 -
+__Lbank2 0 0 BANK2 1 bank2 -
+__Hbank3 0 0 BANK3 1 bank3 -
+__Lbank3 0 0 BANK3 1 bank3 -
+___latbits 0 0 ABS 0 - dist/default/production\V1.0.production.obj
+__Hbank4 0 0 BANK4 1 bank4 -
+__Lbank4 0 0 BANK4 1 bank4 -
+__Hbank5 0 0 BANK5 1 bank5 -
+__Lbank5 0 0 BANK5 1 bank5 -
+_fPWMControl 70E 0 CODE 0 text1 dist/default/production\V1.0.production.obj
+__Hpowerup 0 0 CODE 0 powerup -
+__Lpowerup 0 0 CODE 0 powerup -
+__Hbank6 0 0 BANK6 1 bank6 -
+__Lbank6 0 0 BANK6 1 bank6 -
+__Hbank7 0 0 BANK7 1 bank7 -
+__Lbank7 0 0 BANK7 1 bank7 -
+__Hbank8 0 0 BANK8 1 bank8 -
+__Lbank8 0 0 BANK8 1 bank8 -
+__Hbank9 0 0 BANK9 1 bank9 -
+__Lbank9 0 0 BANK9 1 bank9 -
+__ptext1 70E 0 CODE 0 text1 dist/default/production\V1.0.production.obj
+__ptext2 602 0 CODE 0 text2 dist/default/production\V1.0.production.obj
+__ptext3 82C 0 CODE 0 text3 dist/default/production\V1.0.production.obj
+__ptext4 79E 0 CODE 0 text4 dist/default/production\V1.0.production.obj
+__ptext6 760 0 CODE 0 text6 dist/default/production\V1.0.production.obj
+__Hclrtext 0 0 ABS 0 clrtext -
+__Lclrtext 0 0 ABS 0 clrtext -
+__end_of__initialization A4 0 CODE 0 cinit dist/default/production\V1.0.production.obj
+_UARTRxBuffer 50 0 BANK0 1 dataBANK0 dist/default/production\V1.0.production.obj
+__Hidloc 0 0 IDLOC 0 idloc -
+__Lidloc 0 0 IDLOC 0 idloc -
+__Hstack 0 0 STACK 2 stack -
+___lbmod 760 0 CODE 0 text6 dist/default/production\V1.0.production.obj
+__Lstack 0 0 STACK 2 stack -
+init_ram 84C 0 CODE 0 inittext dist/default/production\V1.0.production.obj
+__CFG_IESO$ON 0 0 ABS 0 - dist/default/production\V1.0.production.obj
+__size_of_fInterruptRoutine 0 0 ABS 0 - dist/default/production\V1.0.production.obj
+?___wmul 40 0 BANK0 1 cstackBANK0 dist/default/production\V1.0.production.obj
+__Hcinit A8 0 CODE 0 cinit -
+__Lcinit 72 0 CODE 0 cinit -
+__size_of_main 0 0 ABS 0 - dist/default/production\V1.0.production.obj
+__CFG_BORV$LO 0 0 ABS 0 - dist/default/production\V1.0.production.obj
+_channel_mode 38 0 BANK0 1 bssBANK0 dist/default/production\V1.0.production.obj
+__HidataBANK0 0 0 ABS 0 idataBANK0 -
+__LidataBANK0 0 0 ABS 0 idataBANK0 -
+__CFG_MCLRE$OFF 0 0 ABS 0 - dist/default/production\V1.0.production.obj
+__pidataBANK0 812 0 CODE 0 idataBANK0 dist/default/production\V1.0.production.obj
+clear_ram0 840 0 CODE 0 clrtext dist/default/production\V1.0.production.obj
+__end_of_fPWMControl 760 0 CODE 0 text1 dist/default/production\V1.0.production.obj
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+_SSP1CON1 215 0 ABS 0 - dist/default/production\V1.0.production.obj
+__Hbank10 0 0 BANK10 1 bank10 -
+__pbssBANK0 20 0 BANK0 1 bssBANK0 dist/default/production\V1.0.production.obj
+__Lbank10 0 0 BANK10 1 bank10 -
+__Hbank20 0 0 BANK20 1 bank20 -
+__Lbank20 0 0 BANK20 1 bank20 -
+__Hbank30 0 0 BANK30 1 bank30 -
+__Hbank11 0 0 BANK11 1 bank11 -
+__Lbank30 0 0 BANK30 1 bank30 -
+__Lbank11 0 0 BANK11 1 bank11 -
+__Hbank21 0 0 BANK21 1 bank21 -
+__Lbank21 0 0 BANK21 1 bank21 -
+__Hbank31 0 0 BANK31 1 bank31 -
+__Hbank12 0 0 BANK12 1 bank12 -
+__Lbank31 0 0 BANK31 1 bank31 -
+__Lbank12 0 0 BANK12 1 bank12 -
+__Hbank22 0 0 BANK22 1 bank22 -
+__Lbank22 0 0 BANK22 1 bank22 -
+__Hbank13 0 0 BANK13 1 bank13 -
+__Lbank13 0 0 BANK13 1 bank13 -
+__HbssBANK1 0 0 ABS 0 bssBANK1 -
+__LbssBANK1 0 0 ABS 0 bssBANK1 -
+__Hbank23 0 0 BANK23 1 bank23 -
+__Lbank23 0 0 BANK23 1 bank23 -
+__Hbank14 0 0 BANK14 1 bank14 -
+__pbssBANK1 A0 0 BANK1 1 bssBANK1 dist/default/production\V1.0.production.obj
+__Lbank14 0 0 BANK14 1 bank14 -
+__Hstringtext 0 0 ABS 0 stringtext -
+__Lstringtext 0 0 ABS 0 stringtext -
+__Hbank24 0 0 BANK24 1 bank24 -
+__Lbank24 0 0 BANK24 1 bank24 -
+__pstringtext 200 0 STRCODE 0 stringtext dist/default/production\V1.0.production.obj
+__Hbank15 0 0 BANK15 1 bank15 -
+__Lbank15 0 0 BANK15 1 bank15 -
+__Hbank25 0 0 BANK25 1 bank25 -
+__Lbank25 0 0 BANK25 1 bank25 -
+__Hbank16 0 0 BANK16 1 bank16 -
+__Lbank16 0 0 BANK16 1 bank16 -
+__Hbank26 0 0 BANK26 1 bank26 -
+__Lbank26 0 0 BANK26 1 bank26 -
+__Hbank17 0 0 BANK17 1 bank17 -
+__Lbank17 0 0 BANK17 1 bank17 -
+__size_of_fSPIWrite 0 0 ABS 0 - dist/default/production\V1.0.production.obj
+__Hbank27 0 0 BANK27 1 bank27 -
+__Lbank27 0 0 BANK27 1 bank27 -
+__Hbank18 0 0 BANK18 1 bank18 -
+__Lbank18 0 0 BANK18 1 bank18 -
+__Hbank28 0 0 BANK28 1 bank28 -
+__end_of_fInterruptRoutine 70 0 CODE 0 intentry dist/default/production\V1.0.production.obj
+__Lbank28 0 0 BANK28 1 bank28 -
+__Hbank19 0 0 BANK19 1 bank19 -
+__Lbank19 0 0 BANK19 1 bank19 -
+__Hbank29 0 0 BANK29 1 bank29 -
+__Lbank29 0 0 BANK29 1 bank29 -
+___lbmod@divisor 70 0 COMMON 1 cstackCOMMON dist/default/production\V1.0.production.obj
+__CFG_BOREN$OFF 0 0 ABS 0 - dist/default/production\V1.0.production.obj
+__CFG_PWRTE$OFF 0 0 ABS 0 - dist/default/production\V1.0.production.obj
+__HbssCOMMON 0 0 ABS 0 bssCOMMON -
+__LbssCOMMON 0 0 ABS 0 bssCOMMON -
+__pbssCOMMON 79 0 COMMON 1 bssCOMMON dist/default/production\V1.0.production.obj
+__Hend_init 72 0 CODE 0 end_init -
+__Lend_init 70 0 CODE 0 end_init -
+fSPIWrite@data 40 0 BANK0 1 cstackBANK0 dist/default/production\V1.0.production.obj
+__size_of___wmul 0 0 ABS 0 - dist/default/production\V1.0.production.obj
+__Hreset_vec 2 0 CODE 0 reset_vec -
+__Lreset_vec 0 0 CODE 0 reset_vec -
+_UARTwriteIndex 79 0 COMMON 1 bssCOMMON dist/default/production\V1.0.production.obj
+intlevel0 0 0 CODE 0 functab C:\Users\schwab_n\AppData\Local\Temp\s520.obj
+__CFG_WDTE$OFF 0 0 ABS 0 - dist/default/production\V1.0.production.obj
+intlevel1 0 0 CODE 0 functab C:\Users\schwab_n\AppData\Local\Temp\s520.obj
+intlevel2 0 0 CODE 0 functab C:\Users\schwab_n\AppData\Local\Temp\s520.obj
+intlevel3 0 0 CODE 0 functab C:\Users\schwab_n\AppData\Local\Temp\s520.obj
+intlevel4 0 0 CODE 0 functab C:\Users\schwab_n\AppData\Local\Temp\s520.obj
+intlevel5 0 0 CODE 0 functab C:\Users\schwab_n\AppData\Local\Temp\s520.obj
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\V1.0.production.obj
+__end_of___wmul 7DA 0 CODE 0 text4 dist/default/production\V1.0.production.obj
+fTLCwrite@command 46 0 BANK0 1 cstackBANK0 dist/default/production\V1.0.production.obj
+__CFG_CPD$OFF 0 0 ABS 0 - dist/default/production\V1.0.production.obj
+start_initialization 72 0 CODE 0 cinit dist/default/production\V1.0.production.obj
+__Hmaintext 0 0 ABS 0 maintext -
+__Lmaintext 0 0 ABS 0 maintext -
+fPWMControl@n 4E 0 BANK0 1 cstackBANK0 dist/default/production\V1.0.production.obj
+__pmaintext 7DA 0 CODE 0 maintext dist/default/production\V1.0.production.obj
+__end_of_fTLCwrite 70E 0 CODE 0 text2 dist/default/production\V1.0.production.obj
+fPWMControl@channel 4D 0 BANK0 1 cstackBANK0 dist/default/production\V1.0.production.obj
+__end_of___lbmod 79E 0 CODE 0 text6 dist/default/production\V1.0.production.obj
+__Hinittext 0 0 ABS 0 inittext -
+__CFG_FOSC$INTOSC 0 0 ABS 0 - dist/default/production\V1.0.production.obj
+__Linittext 0 0 ABS 0 inittext -
+__initialization 72 0 CODE 0 cinit dist/default/production\V1.0.production.obj
+fTLCwrite@c 45 0 BANK0 1 cstackBANK0 dist/default/production\V1.0.production.obj
+___lbmod@dividend 73 0 COMMON 1 cstackCOMMON dist/default/production\V1.0.production.obj
+___lbmod@counter 74 0 COMMON 1 cstackCOMMON dist/default/production\V1.0.production.obj
+___wmul@product 44 0 BANK0 1 cstackBANK0 dist/default/production\V1.0.production.obj
+__CFG_CP$OFF 0 0 ABS 0 - dist/default/production\V1.0.production.obj
+__CFG_FCMEN$ON 0 0 ABS 0 - dist/default/production\V1.0.production.obj
+__size_of_fPWMControl 0 0 ABS 0 - dist/default/production\V1.0.production.obj
+___lbmod@rem 75 0 COMMON 1 cstackCOMMON dist/default/production\V1.0.production.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/production\V1.0.production.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect in on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+reset_vec 0 0 0 1 2
+intentry 0 4 8 50 2
+config 0 8007 1000E 2 2
+cstackCOMMON 1 70 70 C 1
+bssBANK1 1 A0 A0 18 1
+bssBANK0 1 20 20 3D 1
+stringtext 0 100 200 201 2
+text2 0 301 602 12B 2

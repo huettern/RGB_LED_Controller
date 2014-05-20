@@ -1,0 +1,259 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1823 ]
+[d frameptr 6 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\abdiv.c
+[v ___abdiv __abdiv `(c  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\abmod.c
+[v ___abmod __abmod `(c  1 e 1 0 ]
+"33 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\abtoft.c
+[v ___abtoft __abtoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"42 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"37 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\attoft.c
+[v ___attoft __attoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"2 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\bmul.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"51 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"18 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"27 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"35 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"2 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lmul.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"30 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lttoft.c
+[v ___lttoft __lttoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"28 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"2 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\tmul.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\wmul.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 0 0 ]
+"24
+[v _memcpyee memcpyee `(v  1 e 0 0 ]
+"48
+[v ___eetoc __eetoc `(uc  1 e 1 0 ]
+"56
+[v ___eetoi __eetoi `(ui  1 e 2 0 ]
+"64
+[v ___eetom __eetom `(um  1 e 3 0 ]
+"72
+[v ___eetol __eetol `(ul  1 e 4 0 ]
+"80
+[v ___ctoee __ctoee `(uc  1 e 1 0 ]
+"87
+[v ___itoee __itoee `(ui  1 e 2 0 ]
+"94
+[v ___mtoee __mtoee `(um  1 e 3 0 ]
+"101
+[v ___ltoee __ltoee `(ul  1 e 4 0 ]
+"108
+[v ___eetoft __eetoft `(f  1 e 3 0 ]
+"116
+[v ___eetofl __eetofl `(d  1 e 3 0 ]
+"124
+[v ___fttoee __fttoee `(f  1 e 3 0 ]
+"131
+[v ___fltoee __fltoee `(d  1 e 3 0 ]
+"49 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\pic\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"36 C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\main.c
+[v _main main `(v  1 e 0 0 ]
+"49 C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c
+[v _fSPIInit fSPIInit `(v  1 e 0 0 ]
+"53
+[v _fSPIWrite fSPIWrite `(v  1 e 0 0 ]
+"59
+[v _fPWMControl fPWMControl `(v  1 e 0 0 ]
+"70
+[v _fFadeOneColor fFadeOneColor `(v  1 e 0 0 ]
+"73
+[v _fTLCwrite fTLCwrite `(v  1 e 0 0 ]
+"106
+[v _delay_ms delay_ms `(v  1 e 0 0 ]
+"22 C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\uart.c
+[v _fUartInit fUartInit `(i  1 e 2 0 ]
+"39
+[v _fInterruptRoutine fInterruptRoutine `II(v  1 e 0 0 ]
+"332 C:\Program Files (x86)\Microchip\xc8\v1.30\include\pic16f1823.h
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+"1554
+[v _PIE1 PIE1 `VEuc  1 e 1 @145 ]
+"1906
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"3164
+[v _EEADR EEADR `VEus  1 e 2 @401 ]
+"3219
+[v _EEDATA EEDATA `VEuc  1 e 1 @403 ]
+"3270
+[v _EECON1 EECON1 `VEuc  1 e 1 @405 ]
+"3331
+[v _EECON2 EECON2 `VEuc  1 e 1 @406 ]
+"3350
+[v _RCREG RCREG `VEuc  1 e 1 @409 ]
+"3403
+[v _SPBRGL SPBRGL `VEuc  1 e 1 @411 ]
+"3452
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @412 ]
+"3484
+[v _RCSTA RCSTA `VEuc  1 e 1 @413 ]
+"3545
+[v _TXSTA TXSTA `VEuc  1 e 1 @414 ]
+"3606
+[v _BAUDCON BAUDCON `VEuc  1 e 1 @415 ]
+"3771
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @529 ]
+"4003
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @533 ]
+"5713
+[v _CARRY CARRY `VEb  1 e 0 @24 ]
+"5815
+[v _CREN CREN `VEb  1 e 0 @3308 ]
+"5873
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"5879
+[v _HFIOFL HFIOFL `VEb  1 e 0 @1235 ]
+"6073
+[v _PLLR PLLR `VEb  1 e 0 @1238 ]
+"6121
+[v _RCIF RCIF `VEb  1 e 0 @141 ]
+"6123
+[v _RD RD `VEb  1 e 0 @3240 ]
+"6215
+[v _SSP1IF SSP1IF `VEb  1 e 0 @139 ]
+"6427
+[v _WR WR `VEb  1 e 0 @3241 ]
+"6429
+[v _WREN WREN `VEb  1 e 0 @3242 ]
+"20 C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c
+[v _channel_mode channel_mode `[4][2]uc  1 e 8 0 ]
+"21
+[v _channel_color channel_color `[4][6]uc  1 e 24 0 ]
+"22
+[v _SPITxBuffer SPITxBuffer `[24]uc  1 e 24 0 ]
+"23
+[v _vBCr vBCr `uc  1 e 1 0 ]
+"24
+[v _vBCg vBCg `uc  1 e 1 0 ]
+"25
+[v _vBCb vBCb `uc  1 e 1 0 ]
+"26
+[v _FadeValue FadeValue `DCC[256]ui  1 e 512 0 ]
+"16 C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\uart.c
+[v _UARTRxBuffer UARTRxBuffer `[10]uc  1 e 10 0 ]
+"18
+[v _UARTwriteIndex UARTwriteIndex `uc  1 e 1 0 ]
+"19
+[v _vErrorFlags vErrorFlags `uc  1 e 1 0 ]
+"20
+[v _vNewData vNewData `uc  1 e 1 0 ]
+"36 C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\main.c
+[v _main main `(v  1 e 0 0 ]
+{
+"48
+} 0
+"59 C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\tlc59711_driver.c
+[v _fPWMControl fPWMControl `(v  1 e 0 0 ]
+{
+[v fPWMControl@command command `uc  1 a 1 wreg ]
+"63
+[v fPWMControl@n n `uc  1 a 1 14 ]
+"60
+[v fPWMControl@channel channel `uc  1 a 1 13 ]
+"59
+[v fPWMControl@command command `uc  1 a 1 wreg ]
+"68
+} 0
+"73
+[v _fTLCwrite fTLCwrite `(v  1 e 0 0 ]
+{
+"99
+[v fTLCwrite@c c `c  1 a 1 5 ]
+"74
+[v fTLCwrite@command command `ul  1 a 4 6 ]
+"104
+} 0
+"53
+[v _fSPIWrite fSPIWrite `(v  1 e 0 0 ]
+{
+[v fSPIWrite@data data `uc  1 a 1 wreg ]
+[v fSPIWrite@data data `uc  1 a 1 wreg ]
+[v fSPIWrite@data data `uc  1 a 1 0 ]
+"57
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\wmul.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"6
+[v ___wmul@product product `ui  1 a 2 4 ]
+"4
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"31
+} 0
+"39 C:\Users\schwab_n\Dropbox\RGB_Controller\Software\V1.0\uart.c
+[v _fInterruptRoutine fInterruptRoutine `II(v  1 e 0 0 ]
+{
+"55
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+{
+[v ___lbmod@dividend dividend `uc  1 a 1 wreg ]
+"6
+[v ___lbmod@rem rem `uc  1 a 1 5 ]
+"7
+[v ___lbmod@counter counter `uc  1 a 1 4 ]
+"4
+[v ___lbmod@dividend dividend `uc  1 a 1 wreg ]
+[v ___lbmod@divisor divisor `uc  1 p 1 0 ]
+"9
+[v ___lbmod@dividend dividend `uc  1 a 1 3 ]
+"18
+} 0
