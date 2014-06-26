@@ -1,0 +1,13 @@
+C:\Users\Noah\Source\Repos\LED-Strip Controller\Solution_CS_WPF\Solution_CS_WPF\bin\Debug\Solution_CS_WPF.exe.config
+C:\Users\Noah\Source\Repos\LED-Strip Controller\Solution_CS_WPF\Solution_CS_WPF\bin\Debug\Solution_CS_WPF.exe
+C:\Users\Noah\Source\Repos\LED-Strip Controller\Solution_CS_WPF\Solution_CS_WPF\bin\Debug\Solution_CS_WPF.pdb
+C:\Users\Noah\Source\Repos\LED-Strip Controller\Solution_CS_WPF\Solution_CS_WPF\obj\Debug\Solution_CS_WPF.csprojResolveAssemblyReference.cache
+C:\Users\Noah\Source\Repos\LED-Strip Controller\Solution_CS_WPF\Solution_CS_WPF\obj\Debug\MainWindow.baml
+C:\Users\Noah\Source\Repos\LED-Strip Controller\Solution_CS_WPF\Solution_CS_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\Noah\Source\Repos\LED-Strip Controller\Solution_CS_WPF\Solution_CS_WPF\obj\Debug\App.g.cs
+C:\Users\Noah\Source\Repos\LED-Strip Controller\Solution_CS_WPF\Solution_CS_WPF\obj\Debug\Solution_CS_WPF_MarkupCompile.cache
+C:\Users\Noah\Source\Repos\LED-Strip Controller\Solution_CS_WPF\Solution_CS_WPF\obj\Debug\Solution_CS_WPF.g.resources
+C:\Users\Noah\Source\Repos\LED-Strip Controller\Solution_CS_WPF\Solution_CS_WPF\obj\Debug\Solution_CS_WPF.Properties.Resources.resources
+C:\Users\Noah\Source\Repos\LED-Strip Controller\Solution_CS_WPF\Solution_CS_WPF\obj\Debug\Solution_CS_WPF.csproj.GenerateResource.Cache
+C:\Users\Noah\Source\Repos\LED-Strip Controller\Solution_CS_WPF\Solution_CS_WPF\obj\Debug\Solution_CS_WPF.exe
+C:\Users\Noah\Source\Repos\LED-Strip Controller\Solution_CS_WPF\Solution_CS_WPF\obj\Debug\Solution_CS_WPF.pdb

@@ -1,0 +1,19 @@
+_UART_fRxData: CODE, 981 0 40
+_BCr: STRCODE, 771 0 1
+__stringtab: STRCODE, 256 0 1
+_main: CODE, 1140 0 10
+_SPI_fInit: CODE, 1171 0 6
+_FadeValue: STRCODE, 257 0 512
+_BCb: STRCODE, 769 0 1
+__initialization: CODE, 19 0 18
+_TLC_fUpdate: CODE, 772 0 209
+_TMR0_fInterrupt: CODE, 1177 0 6
+_BCg: STRCODE, 770 0 1
+_TLC_fControl: CODE, 1021 0 32
+_fInterruptRoutine: CODE, 4 0 14
+_UART_fInit: CODE, 1084 0 18
+_SPI_fWrite: CODE, 1119 0 11
+___lbmod: CODE, 1053 0 31
+_TMR0_fInit: CODE, 1150 0 9
+___bmul: CODE, 1102 0 17
+Total: 937
