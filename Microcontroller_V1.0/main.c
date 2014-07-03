@@ -1,6 +1,6 @@
 /* 
  * File:   main.c
- * Author: schwab_n
+ * Author: schwab_n & huetter_n
  *
  * Created on 16. Mai 2014, 11:25
  */
